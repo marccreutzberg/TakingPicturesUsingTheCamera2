@@ -21,11 +21,11 @@ import java.util.Date;
 
 public class MainActivity extends Activity {
 
+    //MY VIEW
     ImageView myImageView;
     static final int REQUEST_TAKE_PHOTO = 1;
     static final int REQUEST_IMAGE_CAPTURE = 1;
     String mCurrentPhotoPath;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
